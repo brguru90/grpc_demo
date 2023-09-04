@@ -1,5 +1,8 @@
 syntax = "proto3";
 
+option go_package = "./notifications";
+
+
 message Empty {}
 
 message Notification {
